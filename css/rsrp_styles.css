@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-Jun-2014, 14:49:54
+    Author     : Robert Austin
+*/
+
+.rsrp-tag-links a:before {
+    border-bottom: 10px solid transparent;
+    border-right: 8px solid #767676;
+    border-top: 10px solid transparent;
+    content: "";
+    height: 0;
+    left: -8px;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+
+.rsrp-tag-links a:after {
+    background-color: #fff;
+    border-radius: 50%;
+    content: "";
+    height: 4px;
+    left: -2px;
+    position: absolute;
+    top: 8px;
+    width: 4px;
+}
+
+.rsrp-tag-links a {
+    background-color: #767676;
+    border-radius: 0 2px 2px 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.27273;
+    margin: 2px 4px 2px 10px;
+    padding: 3px 7px;
+    position: relative;
+    text-transform: uppercase;
+    
+}
